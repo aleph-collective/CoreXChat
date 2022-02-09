@@ -4,7 +4,7 @@
 	"VersionName": "1.0",
 	"FriendlyName": "CoreXChat",
 	"Description": "",
-	"Category": "Other",
+	"Category": "Miscellaneous",
 	"CreatedBy": "whiteex",
 	"CreatedByURL": "",
 	"DocsURL": "",
@@ -19,6 +19,20 @@
 			"Name": "CoreXChat",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemEOS",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
 		}
 	]
 }
